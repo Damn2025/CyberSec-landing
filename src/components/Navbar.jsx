@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import cybersecLogo from '../assets/Cybersec.png';
 
 const Navbar = ({ onOpenLogin, onOpenSignup }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = ({ onOpenLogin, onOpenSignup }) => {
     <nav className={`fixed w-full z-50 transition-all duration-300 border-b border-white/5 ${scrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 font-mono text-2xl font-bold tracking-tighter text-white">
-          <Shield className="text-red-600 w-8 h-8" />
+          <img src={cybersecLogo} alt="CyberSec Logo" className="h-10 w-auto" />
           <span className="text-shadow-glow">CYBER<span className="text-red-600">SEC</span></span>
         </div>
         
