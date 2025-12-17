@@ -298,7 +298,11 @@ const DetailedFeatures = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-red-500 font-mono text-sm tracking-widest mb-2">COMPREHENSIVE CAPABILITIES</h2>
+<<<<<<< HEAD
           <h3 className="text-4xl font-bold text-white mb-4">Complete <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 text-shadow-glow">Cyber Security Scanning</span> Platform</h3>
+=======
+          <h3 className="text-4xl font-bold text-white mb-4">Complete <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 text-shadow-glow">Security Scanning</span> Platform</h3>
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
           <p className="text-gray-400 max-w-2xl mx-auto">
             Explore our extensive feature set organized by category. Everything you need for comprehensive security testing.
           </p>

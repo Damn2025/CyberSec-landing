@@ -163,14 +163,21 @@ const ThreatAnalyzer = () => {
 
   return (
     <section id="threat-analyzer" className="py-24 bg-black relative border-t border-red-900/20">
+<<<<<<< HEAD
        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-900 to-transparent"></div>
+=======
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center mb-16 text-center">
            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-red-500/30 bg-red-950/20 text-red-400 text-xs font-mono mb-6 tracking-widest uppercase">
               <Sparkles className="w-3 h-3 text-red-400" />
               <span>Powered by CyberSec</span>
            </div>
+<<<<<<< HEAD
            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 lg:mb-4"> <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 text-shadow-glow'>AI</span> Threat Intelligence</h2>
+=======
+           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 lg:mb-4">AI Threat Intelligence</h2>
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
            <p className="text-gray-400 max-w-2xl mb-4 md:mb-6 lg:mb-8 text-sm md:text-base">
              Paste suspicious logs, headers, or code snippets below. CyberSec AI will analyze them for zero-day vulnerabilities and anomalies instantly.
            </p>

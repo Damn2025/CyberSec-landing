@@ -59,7 +59,11 @@ const TrustedBy = () => {
         </div>
 
         {/* Static Grid for Mobile (Alternative View) */}
+<<<<<<< HEAD
         {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 mt-8 md:hidden">
+=======
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 mt-8 md:hidden">
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
           {companies.slice(0, 6).map((company, idx) => {
             const Icon = company.icon;
             return (
@@ -74,7 +78,11 @@ const TrustedBy = () => {
               </div>
             );
           })}
+<<<<<<< HEAD
         </div> */}
+=======
+        </div>
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
       </div>
 
       <style>{`

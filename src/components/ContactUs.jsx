@@ -44,7 +44,11 @@ const ContactUs = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center mb-8 md:mb-12 lg:mb-16 text-center">
           <h2 className="text-red-500 font-mono text-[10px] md:text-xs lg:text-sm tracking-widest mb-2">GET IN TOUCH</h2>
+<<<<<<< HEAD
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6 lg:mb-8">Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 text-shadow-glow">Cyber secure</span> your perimeter?</h2>
+=======
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6 lg:mb-8">Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 text-shadow-glow">secure</span> your perimeter?</h2>
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
           <p className="text-sm md:text-base lg:text-xl text-gray-400 mb-6 md:mb-8 lg:mb-10 max-w-2xl mx-auto">
         Join over 5,000 security professionals who trust CyberSec for their vulnerability assessments.
       </p>

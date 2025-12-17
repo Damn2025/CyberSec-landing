@@ -3,7 +3,11 @@ import { X, Send, MessageSquare, ChevronDown } from 'lucide-react';
 
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
+<<<<<<< HEAD
   const [messages, setMessages] = useState([{ role: 'system', text: 'CYBERSEC Assistant online. How can I protect you today?' }]);
+=======
+  const [messages, setMessages] = useState([{ role: 'system', text: 'CyberSec Assistant online. How can I protect you today?' }]);
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
     const [input, setInput] = useState('');
     const [loading, setLoading] = useState(false);
     const messagesEndRef = useRef(null);
@@ -57,7 +61,11 @@ const ChatWidget = () => {
              <div className="p-3 bg-red-900/20 border-b border-red-500/30 flex justify-between items-center">
                <div className="flex items-center gap-2">
                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+<<<<<<< HEAD
                  <span className="text-shadow-glow text-xs font-bold tracking-widest text-white">CYBER<span className="text-red-600">SEC</span></span>
+=======
+                 <span className="font-mono text-xs font-bold text-red-400 tracking-widest">CYBERSEC</span>
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
                </div>
                <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-white"><X className="w-4 h-4"/></button>
              </div>

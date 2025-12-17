@@ -14,13 +14,21 @@ const AboutSection = () => {
               We Are The <span className="text-red-600">Digital Firewall</span> For The Modern World.
             </h2>
             <h3 className="text-gray-400 mb-4 md:mb-6 leading-relaxed font-poppins text-sm md:text-base">
+<<<<<<< HEAD
             <span className="text-shadow-glow font-bold text-white">CYBER<span className="text-red-600">SEC</span></span> helps businesses stay safe in the digital world by constantly keeping an eye on their online presence. We identify <span className="text-red-500 font-semibold">risks</span>, <span className="text-red-500 font-semibold">weaknesses</span>, and potential <span className="text-red-500 font-semibold">threats</span> before they turn into real problems.
+=======
+            Cybersec helps businesses stay safe in the digital world by constantly keeping an eye on their online presence. We identify <span className="text-red-500 font-semibold">risks</span>, <span className="text-red-500 font-semibold">weaknesses</span>, and potential <span className="text-red-500 font-semibold">threats</span> before they turn into real problems.
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
             </h3>
             <p className="text-gray-400 mb-6 md:mb-8 leading-relaxed font-poppins text-sm md:text-base">
             Our platform gives you a clear, easy-to-understand view of your <span className="text-white font-semibold">security</span> — not just within your own systems, but also across the <span className="text-white font-semibold">partners</span> and <span className="text-white font-semibold">vendors</span> you rely on. This means you know where your business stands at all times.
             </p>
             <p className="text-gray-400 mb-6 md:mb-8 leading-relaxed font-poppins text-sm md:text-base">
+<<<<<<< HEAD
             With <span className="text-shadow-glow font-bold text-white">CYBER<span className="text-red-600">SEC</span></span>, you don't need multiple tools or complex setups. Everything is brought together in one place, helping you spot issues early, reduce exposure, and make smarter security decisions with confidence.
+=======
+            With Cybersec, you don't need multiple tools or complex setups. Everything is brought together in one place, helping you spot issues early, reduce exposure, and make smarter security decisions with confidence.
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
             </p>
             </div>
           

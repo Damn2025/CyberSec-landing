@@ -52,6 +52,7 @@ const App = () => {
       <Features />
       <ThreatAnalyzer />
       <DetailedFeatures />
+<<<<<<< HEAD
       <Testimonials />
       <ScannerRoadmap onOpenSignup={handleOpenSignup} />
       
@@ -60,6 +61,14 @@ const App = () => {
       <ContactUs />
     
      
+=======
+      <ScannerRoadmap onOpenSignup={handleOpenSignup} />
+      <Testimonials />
+      <Pricing />
+      <ContactUs />
+    
+      <Advertisements />
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
       <Footer />
       <LoginModal 
         isOpen={isLoginOpen} 

@@ -74,6 +74,7 @@ const Testimonials = () => {
       role: "Non-Profit Coordinator", 
       text: "I'm not tech-savvy at all, but Simple Mode makes me feel protected. It tells me if something is safe or dangerous in words I can understand.", 
       type: "simple" 
+<<<<<<< HEAD
     },
     { 
       name: "Alexander Novak", 
@@ -182,6 +183,8 @@ const Testimonials = () => {
       role: "Antique Shop Owner", 
       text: "Someone tried to scam me with a fake shipping notification. Simple Mode told me exactly why it was suspicious. Saved my business money!", 
       type: "simple" 
+=======
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
     }
   ];
 
@@ -190,7 +193,10 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="py-12 md:py-16 lg:py-24 bg-black relative border-t border-white/5 overflow-hidden">
+<<<<<<< HEAD
        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-900 to-transparent"></div>
+=======
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
           <h2 className="text-red-500 font-mono text-[10px] md:text-xs lg:text-sm tracking-widest mb-2 uppercase">CLIENT TESTIMONIALS</h2>
@@ -268,7 +274,11 @@ const Testimonials = () => {
           }
         }
         .animate-marquee {
+<<<<<<< HEAD
           animation: marquee 15s linear infinite;
+=======
+          animation: marquee 60s linear infinite;
+>>>>>>> 27b8a926548293f3c38b8b518b6665ce19b6e29c
         }
         .animate-marquee:hover {
           animation-play-state: paused;
